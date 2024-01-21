@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Main from './pages/main';
+import "./style.scss";
+import Form from './pages/form';
+import api from './api';
+import Profile from './pages/profile/profile';
+import Login from './pages/login';
+import Landing from './pages/landing';
+// import Form2 from './pages/form2';
+// import "~slick-carousel/slick/slick.css"; 
+// import "~slick-carousel/slick/slick-theme.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    
+
   </React.StrictMode>
 );
 

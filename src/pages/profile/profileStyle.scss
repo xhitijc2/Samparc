@@ -1,0 +1,246 @@
+$peach:#F0E1DE;
+$bluegreen:#76CCBF;
+$darkblgn: #0e2126;
+$medblgn:  rgb(11, 139, 122);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{font-family:Poppins;
+}
+.profTitle{
+    background-color: $darkblgn;
+    // height: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    .namebox{
+        background-color: $medblgn;
+        margin: 25px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+
+        .profimg{
+            display: flex;
+            height: 90px;
+            margin: 9px;
+            margin-left: 40px;
+            margin-right: 30px;
+            width: 90px;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: solid 2px $bluegreen;
+
+            img{
+                height: inherit;
+                border-radius: 5px;
+                // width: inherit;
+                // overflow: hidden;
+            }
+        }
+        h1{
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 10px;
+            width: 500px;
+        }
+        .logo{
+            margin-left: 500px;
+            height: 75px;
+            img{
+                height: inherit;
+            }
+        }
+    }
+}
+.profbox{
+    // height: 1000px;
+    background-color: $darkblgn;
+    margin: 0px;
+    padding: 0px;
+    .box1{
+        display: flex;
+        // width: 100%;
+        .detail, .profphoto, .donationstatus{
+            background-color: $medblgn;
+            margin: 25px;
+            margin-top: 0px;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .detail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: top;
+            p{
+                margin: 0px;
+                padding: 10px;
+            }
+        }
+        .profphoto{
+            margin-left: 0px;
+            margin-right: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+            .imgbox{
+                height: 200px;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                border-radius: 50%;
+                border: solid 4px $bluegreen;
+                img{
+                    height: inherit;
+                }
+            }
+        }
+        .donationstatus{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .payGraph{
+                height: 200px;
+                img{
+                    height: inherit;
+                    border-radius: 50%;
+                }
+                
+            }
+            p{
+                margin: 12px;
+            }
+        }
+    }
+    .box2{
+        display: flex;
+        .social, .payment{
+            background-color: $medblgn;
+            margin: 25px;
+            margin-top: 0px;
+            border-radius: 5px;
+            // width: 100%; 
+        }
+        .social{
+            // margin-right: 100px;
+            
+            width: 40%;
+            padding: 10px;
+            .socialimgs{
+                height: 45px;
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+                margin: 5px;
+                color: white;
+                align-items: center;
+                border-radius: 5px;
+                // width: auto;
+                
+                // justify-content: center;
+                img{
+                    height: inherit;
+                    border-radius: 50%;
+                    // margin: 10px;
+                }
+                h3{
+                    margin-left: 20px;
+                }
+            }
+            .socialimgs:hover{
+                // img {filter: invert(100%);}
+                cursor: pointer;
+            }
+            #fb{
+                background-color:	#1877F2
+            }
+            #fb:hover{
+                background-color: #062b5c;
+            }
+            #whatsapp{
+                background-color: #189f1f;
+            }#whatsapp:hover{
+                background-color: #10490c;
+            }
+            #X{
+                background-color: gray;
+            } #X:hover{
+                background-color: rgb(42, 41, 41);
+            }
+            #linked{
+                background-color: #168ccc;
+            } #linked:hover{
+                background-color: #023754;
+            }
+        }
+        .payment{
+            margin-left: 0px;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .payimg{
+                height: 300px;
+                // width: inherit;
+                border-radius: 5px;
+                overflow: hidden;
+                img{
+                    height: inherit;
+                }
+            }
+        }
+    }
+}
+.story{
+    // height: 100vh;
+    background-color: $bluegreen;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-size: 27px;
+        margin-bottom: 40px;
+        border-bottom: #cd486b 3px solid;
+        padding: 9px;
+    }
+    .content{
+        background-color: $peach;
+        width: 80%;
+        margin: 0px;
+        padding: 25px;
+        border-radius: 20px;
+        height: 200px;
+
+    }
+}
+.swiper{
+    background-color: $bluegreen;
+    height: 600px;
+    // padding-bottom: 20px;
+    
+    .swiper-slide{
+        // padding: 10px;
+        // padding-bottom: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+            border-radius: 20px;
+    }
+    
+    }
+}
