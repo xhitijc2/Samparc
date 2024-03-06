@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Samparc/static/css/main.334341c8.css",
-    "main.js": "/Samparc/static/js/main.15136ef1.js",
+    "main.js": "/Samparc/static/js/main.bbd2b2e9.js",
     "static/js/787.6c36d5b7.chunk.js": "/Samparc/static/js/787.6c36d5b7.chunk.js",
     "static/media/patient.png": "/Samparc/static/media/patient.a5b54e60873f148069c9.png",
     "static/media/worry.png": "/Samparc/static/media/worry.5f8bf9adca10925caaa1.png",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/Samparc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Samparc/index.html",
     "main.334341c8.css.map": "/Samparc/static/css/main.334341c8.css.map",
-    "main.15136ef1.js.map": "/Samparc/static/js/main.15136ef1.js.map",
+    "main.bbd2b2e9.js.map": "/Samparc/static/js/main.bbd2b2e9.js.map",
     "787.6c36d5b7.chunk.js.map": "/Samparc/static/js/787.6c36d5b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.334341c8.css",
-    "static/js/main.15136ef1.js"
+    "static/js/main.bbd2b2e9.js"
   ]
 }
